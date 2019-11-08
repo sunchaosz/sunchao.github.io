@@ -225,7 +225,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/11/08/hexo-github-createblog/" class="post-title-link" itemprop="url">�� GitHub ���㿪ʼ�һ������</a>
+            <a href="/2019/11/08/hexo-github-createblog/" class="post-title-link" itemprop="url">用 GitHub 从零开始搭建一个博客</a>
         </h1>
 
         <div class="post-meta">
@@ -236,7 +236,7 @@
               <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
-              <time title="Erstellt: 2019-11-08 00:00:00 / Geändert am: 12:09:29" itemprop="dateCreated datePublished" datetime="2019-11-08T00:00:00+08:00">2019-11-08</time>
+              <time title="Erstellt: 2019-11-08 00:00:00 / Geändert am: 14:27:02" itemprop="dateCreated datePublished" datetime="2019-11-08T00:00:00+08:00">2019-11-08</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -268,22 +268,22 @@
 
       
           <p>type: tags<br>comments: false</p>
-<p>׼������</p>
-<p>�������ȸ����˵һЩ׼����������Щͬѧ����һ��������;�����ȴ����Ū��������վ��������̨�������𣿲��ø����ݿ��𣿲���ע��������û�£������û�У����������ܴһ�����͵ġ�</p>
-<p>GitHub �Ǹ��ö����������ṩ�� GitHub Pages ��������������һ����̬��վ����ͽ���˷����������⡣</p>
-<p>Hexo ������Ϳ��û����ô������������ MarkDown ֱ��д���µģ�Ȼ�� Hexo ����ֱ�ӽ����±���ɾ�̬��ҳ�ļ��������������������µ����ݡ����⡢��ǩ����Ϣ��û��Ҫ�����ݿ������ˣ���ֱ�Ӵ���̬ҳ���ˣ���ͽ�������ݿ�����⡣</p>
-<p>GitHub Pages ����ÿ���˻�����һ����Ϊ {username}.github.io �Ĳֿ⣬�����������Զ�Ϊ����ֿ����һ�� github.io �Ķ�����������ͽ�������������⣬��Ȼ�����Ҫ�Զ��������Ļ���Ҳ����֧�֡�</p>
-<p>����˵�������ϣ���ע��� GitHub �˺ž��ܸ��ˣ�������������ʽ��ʼ�ɡ�</p>
-<p>�½���Ŀ</p>
-<p>������ GitHub �½�һ���ֿ⣨Repository��������Ϊ {username}.github.io��ע��������Ƚ����⣬����Ҫ�� github.io Ϊ��׺��β�ġ����� NightTeam �� GitHub �û����ͽ� NightTeam�����Ҿ��½�һ�� nightteam.github.io���½����֮��Ϳ��Խ��к��������ˡ�</p>
-<p>������� GitHub û������ SSH ���ӵĽ�������һ�£����������ڲ��𲩿͵�ʱ�������㡣</p>
-<p>��װ����</p>
-<p>��װ Node.js</p>
-<p>�������Լ��ĵ����ϰ�װ Node.js�����ص�ַ��<a href="https://nodejs.org/zh-cn/download/�����԰�װ" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/�����԰�װ</a> Stable �汾��</p>
-<p>��װ���֮��ȷ�������������úã�������ʹ�� npm ���</p>
-<p>��װ Hexo</p>
-<p>����������Ҫ��װ Hexo �ˣ�����һ�����Ϳ�ܣ�Hexo �ٷ����ṩ��һ�������й��ߣ����ڿ��ٴ�����Ŀ��ҳ�桢���롢���� Hexo ���ͣ���������֮ǰ������Ҫ�Ȱ�װ Hexo �������й��ߡ�</p>
-<p>�������£�</p>
+<p>准备条件</p>
+<p>在这里先跟大家说一些准备条件，有些同学可能一听到搭建博客就望而却步。弄个博客网站，不得有台服务器吗？不得搞数据库吗？不得注册域名吗？没事，如果都没有，那照样是能搭建一个博客的。</p>
+<p>GitHub 是个好东西啊，它提供了 GitHub Pages 帮助我们来架设一个静态网站，这就解决了服务器的问题。</p>
+<p>Hexo 这个博客框架没有那么重量级，它是 MarkDown 直接写文章的，然后 Hexo 可以直接将文章编译成静态网页文件并发布，所以这样文章的内容、标题、标签等信息就没必要存数据库里面了，是直接纯静态页面了，这就解决了数据库的问题。</p>
+<p>GitHub Pages 允许每个账户创建一个名为 {username}.github.io 的仓库，另外它还会自动为这个仓库分配一个 github.io 的二级域名，这就解决了域名的问题，当然如果想要自定义域名的话，也可以支持。</p>
+<p>所以说，基本上，先注册个 GitHub 账号就能搞了，下面我们来正式开始吧。</p>
+<p>新建项目</p>
+<p>首先在 GitHub 新建一个仓库（Repository），名称为 {username}.github.io，注意这个名比较特殊，必须要是 github.io 为后缀结尾的。比如 NightTeam 的 GitHub 用户名就叫 NightTeam，那我就新建一个 nightteam.github.io，新建完成之后就可以进行后续操作了。</p>
+<p>另外如果 GitHub 没有配置 SSH 连接的建议配置一下，这样后面在部署博客的时候会更方便。</p>
+<p>安装环境</p>
+<p>安装 Node.js</p>
+<p>首先在自己的电脑上安装 Node.js，下载地址：<a href="https://nodejs.org/zh-cn/download/，可以安装" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/，可以安装</a> Stable 版本。</p>
+<p>安装完毕之后，确保环境变量配置好，能正常使用 npm 命令。</p>
+<p>安装 Hexo</p>
+<p>接下来就需要安装 Hexo 了，这是一个博客框架，Hexo 官方还提供了一个命令行工具，用于快速创建项目、页面、编译、部署 Hexo 博客，所以在这之前我们需要先安装 Hexo 的命令行工具。</p>
+<p>命令如下：</p>
 <p>npm install -g hexo-cli</p>
 
       
