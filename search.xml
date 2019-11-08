@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>�� GitHub ���㿪ʼ�һ������</title>
+    <url>/2019/11/08/hexo-github-createblog/</url>
+    <content><![CDATA[<p>type: tags<br>comments: false</p>
+<p>׼������</p>
+<p>�������ȸ����˵һЩ׼����������Щͬѧ����һ��������;�����ȴ����Ū��������վ��������̨�������𣿲��ø����ݿ��𣿲���ע��������û�£������û�У����������ܴһ�����͵ġ�</p>
+<p>GitHub �Ǹ��ö����������ṩ�� GitHub Pages ��������������һ����̬��վ����ͽ���˷����������⡣</p>
+<p>Hexo ������Ϳ��û����ô������������ MarkDown ֱ��д���µģ�Ȼ�� Hexo ����ֱ�ӽ����±���ɾ�̬��ҳ�ļ��������������������µ����ݡ����⡢��ǩ����Ϣ��û��Ҫ�����ݿ������ˣ���ֱ�Ӵ���̬ҳ���ˣ���ͽ�������ݿ�����⡣</p>
+<p>GitHub Pages ����ÿ���˻�����һ����Ϊ {username}.github.io �Ĳֿ⣬�����������Զ�Ϊ����ֿ����һ�� github.io �Ķ�����������ͽ�������������⣬��Ȼ�����Ҫ�Զ��������Ļ���Ҳ����֧�֡�</p>
+<p>����˵�������ϣ���ע��� GitHub �˺ž��ܸ��ˣ�������������ʽ��ʼ�ɡ�</p>
+<p>�½���Ŀ</p>
+<p>������ GitHub �½�һ���ֿ⣨Repository��������Ϊ {username}.github.io��ע��������Ƚ����⣬����Ҫ�� github.io Ϊ��׺��β�ġ����� NightTeam �� GitHub �û����ͽ� NightTeam�����Ҿ��½�һ�� nightteam.github.io���½����֮��Ϳ��Խ��к��������ˡ�</p>
+<p>������� GitHub û������ SSH ���ӵĽ�������һ�£����������ڲ��𲩿͵�ʱ�������㡣</p>
+<p>��װ����</p>
+<p>��װ Node.js</p>
+<p>�������Լ��ĵ����ϰ�װ Node.js�����ص�ַ��<a href="https://nodejs.org/zh-cn/download/�����԰�װ" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/�����԰�װ</a> Stable �汾��</p>
+<p>��װ���֮��ȷ�������������úã�������ʹ�� npm ���</p>
+<p>��װ Hexo</p>
+<p>����������Ҫ��װ Hexo �ˣ�����һ�����Ϳ�ܣ�Hexo �ٷ����ṩ��һ�������й��ߣ����ڿ��ٴ�����Ŀ��ҳ�桢���롢���� Hexo ���ͣ���������֮ǰ������Ҫ�Ȱ�װ Hexo �������й��ߡ�</p>
+<p>�������£�</p>
+<p>npm install -g hexo-cli</p>
+]]></content>
+      <categories>
+        <category>app</category>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>hexo</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
